@@ -1,4 +1,4 @@
-**martIQ Address Autocomplete Custom Question**
+**SmartIQ Address Autocomplete Custom Question**
 
 Uses Mappify.io for address data. Requires an API Key.
 
