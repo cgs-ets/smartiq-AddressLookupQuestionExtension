@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>AddressLookupQuestionExtension</AssemblyName>
+    <RootNamespace>AddressLookupQuestionExtension</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="addressLookup.css" />
+    <None Remove="addressLookup.js" />
+    <None Remove="location16.png" />
+    <None Remove="location48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="location16.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="addressLookup.css" />
+    <EmbeddedResource Include="addressLookup.js" />
+    <EmbeddedResource Include="location16.png" />
+    <EmbeddedResource Include="location48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Intelledox.Common">
+      <HintPath>..\..\..\..\..\..\..\..\inetpub\wwwroot\Infiniti\Produce\bin\Intelledox.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Intelledox.Extension">
+      <HintPath>..\..\..\..\..\..\..\..\inetpub\wwwroot\Infiniti\Produce\bin\Intelledox.Extension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Intelledox.Extension.CustomQuestion">
+      <HintPath>..\..\..\..\..\..\..\..\inetpub\wwwroot\Infiniti\Produce\bin\Intelledox.Extension.CustomQuestion.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Intelledox.Model">
+      <HintPath>..\..\..\..\..\..\..\..\inetpub\wwwroot\Infiniti\Produce\bin\Intelledox.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Intelledox.QAWizard">
+      <HintPath>..\..\..\..\..\..\..\..\inetpub\wwwroot\Infiniti\Produce\bin\Intelledox.QAWizard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Intelledox.QAWizard.Design">
+      <HintPath>..\..\..\..\..\..\..\..\inetpub\wwwroot\Infiniti\Produce\bin\Intelledox.QAWizard.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
